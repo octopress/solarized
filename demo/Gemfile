@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+group :octopress do
+  gem "octopress"
+  gem "octopress-ink", path: "../../ink"
+  gem "octopress-solarized", path: "../"
+  gem "octopress-code-highlighter", path: "../../code-highlighter"
+  gem "octopress-codefence", path: "../../codefence"
+end
+
+gem "pry-debugger"

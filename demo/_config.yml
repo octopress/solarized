@@ -1,0 +1,10 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+sass: 
+  style: compressed
+gems:
+  - octopress-codefence
+  - octopress-solarized
+
+code_aliases:
+  fooooo: ruby
