@@ -1,4 +1,4 @@
-# Octopress::Solarized
+# Octopress Solarized
 
 TODO: Write a gem description
 

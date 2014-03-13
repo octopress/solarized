@@ -1,4 +1,4 @@
-require "octopress/solarized/version"
+require "octopress-solarized/version"
 
 module Octopress
   module Solarized
@@ -20,3 +20,5 @@ module Octopress
     end
   end
 end
+
+Octopress::Ink.register_plugin(Octopress::Solarized::Plugin)
