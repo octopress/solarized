@@ -18,3 +18,4 @@ tmp
 .sass-cache
 .code-highlighter-cache
 _site
+.DS_Store

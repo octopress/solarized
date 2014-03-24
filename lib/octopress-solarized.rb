@@ -12,11 +12,6 @@ module Octopress
           assets_path:   File.expand_path(File.join(File.dirname(__FILE__), '../assets'))
         }
       end
-
-      def add_assets
-        add_sass 'code.scss'
-      end
-
     end
   end
 end

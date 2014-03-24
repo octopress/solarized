@@ -1,3 +1,5 @@
+$pre-line-padding: .8em;
+
 %octopress-diff-bg {
   content: "";
   position: absolute;
@@ -12,13 +14,20 @@
   }
 }
 
-.code-highlight {
+@mixin octopress-highlight-style {
   border: 1px solid $code-highlight-border;
   background: $pre-bg;
   color: $base1;
   span { color: $base1; }
   span { font-style: normal; font-weight: normal; }
 
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: auto;
+  line-height: 1.45em;
+}
+
+@mixin octopress-solarized-code {
   .c      { color: $base01; font-style: italic; }                      /* Comment */
   .cm     { color: $base01; font-style: italic; }                      /* Comment.Multiline */
   .cp     { color: $base01; font-style: italic;  }                     /* Comment.Preproc */
