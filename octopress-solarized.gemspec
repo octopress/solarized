@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Octopress::Solarized::VERSION
   spec.authors       = ["Brandon Mathis"]
   spec.email         = ["brandon@imathis.com"]
-  spec.description   = %q{Ethan Schoonover's solarized theme (with tweaks) for Octopress's code highlighter.}
-  spec.summary       = %q{Ethan Schoonover's solarized theme (with tweaks) for Octopress's code highlighter.}
+  spec.description   = %q{Ethan Schoonover's solarized theme (with tweaks) for Octopress Ink.}
+  spec.summary       = %q{Ethan Schoonover's solarized theme (with tweaks) for Octopress Ink.}
   spec.homepage      = "https://github.com/octopress/solarized"
   spec.license       = "MIT"
 

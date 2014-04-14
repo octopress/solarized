@@ -1,4 +1,4 @@
-$pre-line-padding: .8em;
+$pre-line-padding: .8em !default;
 
 %octopress-diff-bg {
   content: "";
@@ -18,6 +18,7 @@ $pre-line-padding: .8em;
   border: 1px solid $code-highlight-border;
   background: $pre-bg;
   color: $base1;
+
   span { color: $base1; }
   span { font-style: normal; font-weight: normal; }
 
@@ -109,4 +110,3 @@ $pre-line-padding: .8em;
   //.ss     { color: #990073 }                                         /* Literal.String.Symbol */
   //.il     { color: #009999 }                                         /* Literal.Number.Integer.Long */
 }
-
