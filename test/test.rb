@@ -1,7 +1,7 @@
 require 'colorator'
 has_failed = false
 
-system('rake css_build')
+system('rake build_css')
 
 diff1 = `diff ../build/solarized-dark.min.css expected/solarized-dark.min.css`
 diff2 = `diff ../build/solarized-light.min.css expected/solarized-light.min.css`
