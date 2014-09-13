@@ -20,9 +20,7 @@ class Float
   def to_fraction
     higher = 10**self.number_decimal_places
     lower = self*higher
-
     gcden = greatest_common_divisor(higher, lower)
-
     return (lower/gcden).round, (higher/gcden).round
   end
   

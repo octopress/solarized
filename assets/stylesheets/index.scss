@@ -1,4 +1,5 @@
+$solarized: {{ plugins.octopress-solarized.style }};
+
 @import 'solarized';
-@import 'vars';
 @import 'code-mixins';
 @import 'code-highlight';

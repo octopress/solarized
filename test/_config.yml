@@ -1,0 +1,6 @@
+exclude: 
+  - Gemfile*
+gems:
+  - octopress-solarized
+sass:
+    style: :default

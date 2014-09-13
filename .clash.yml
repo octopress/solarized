@@ -1,0 +1,8 @@
+- 
+  build: true
+  compare: _expected/dark _site
+-
+  build: true
+  config:
+    octopress-solarized: _solarized.yml
+  compare: _expected/light _site

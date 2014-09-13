@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2 - 2014-09-13
+- Updated Octopress Ink plugin integration
+
 ## 1.0.1 - 2014-06-29
 - Fix to pre code style.
 
