@@ -12,7 +12,12 @@ task :build_css, :style do |t, args|
 end
 
 def add_sass
-  sass = "$solarized: dark; @import '../assets/stylesheets/index';"
+  path = "assets/stylesheets/"
+  sass  = "$solarized: dark;"
+  sass += File.open("#{path}index.scss").read
+    .sub(/\$solarized.+$/,'')
+    .gsub(/@import\s+('|")/, '@import \1../' + path)
+
   File.open('build/solarized-dark.scss', 'w') { |f| f.write sass }
   File.open('build/solarized-light.scss', 'w') { |f| f.write sass.sub(/dark/,'light') }
 end
