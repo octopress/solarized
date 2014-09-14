@@ -13,18 +13,21 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/octopress/solarized"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = `git ls-files -z`.split("\x0").grep(/^(bin\/|lib\/|assets\/|changelog|readme|license)/i)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "octopress-ink", "~> 1.0.0.rc"
 
   spec.add_development_dependency "clash"
-  spec.add_development_dependency "pry-byebug"
   spec.add_development_dependency "autoprefixer-rails"
   spec.add_development_dependency "octopress", "~> 3.0.0.rc"
   spec.add_development_dependency "octopress-code-highlighter"
   spec.add_development_dependency "octopress-codefence"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  if RUBY_VERSION >= "2"
+    spec.add_development_dependency "pry-byebug"
+  end
 end
