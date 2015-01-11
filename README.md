@@ -19,7 +19,7 @@ Or install it yourself as:
 Next add it to your gems list in Jekyll's `_config.yml`
 
     gems:
-      - octopress-include-tag
+      - octopress-solarized
 
 If you're using a standard Jekyll theme add `{% css_asset_tag %}` to your site layout.
 
