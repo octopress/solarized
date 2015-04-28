@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 - 2015-04-27
+- Fix: font-size should be inherited from page styles.
+
 ## 1.0.3 - 2015-01-02
 - Added source_url to Octopress Ink metadata.
 
