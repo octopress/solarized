@@ -314,8 +314,7 @@ code, kbd, samp, tt {
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-family: "Source Code Pro", Inconsolata-dz, Inconsolata, Menlo, Monaco, Consolas, "Liberation Mono", Courier, monospace;
-  border-radius: 3px;
-  font-size: 0.85em; }
+  border-radius: 3px; }
 
 code:before, code:after, kbd:before, kbd:after, samp:before, samp:after, tt:before, tt:after {
   content: "\00a0";
@@ -331,17 +330,20 @@ pre code:before, pre code:after {
   content: none; }
 
 pre, pre code {
-  font-size: 13px;
+  font-size: .9em;
+  line-height: 1.45em;
   font-family: "Source Code Pro", Inconsolata-dz, Inconsolata, Menlo, Monaco, Consolas, "Liberation Mono", Courier, monospace; }
 
 pre *, pre code * {
-  box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 .highlight pre, pre:not(.code-highlight-pre), .code-highlight {
   overflow: scroll;
   overflow-y: hidden;
   overflow-x: auto;
-  line-height: 1.45em; }
+  line-height: 1.45em;
+  font-size: .9em; }
 
 .highlight pre span, pre:not(.code-highlight-pre) span, .code-highlight span {
   font-style: normal;
@@ -349,13 +351,13 @@ pre *, pre code * {
 
 .code-highlight-figure {
   margin: 1.8em 0;
-  font-size: 14px;
   background: none;
   padding: 0;
   border: 0; }
 
 .code-highlight-figure * {
-  box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 .code-highlight-figure pre {
   margin-top: 0;
@@ -363,6 +365,7 @@ pre *, pre code * {
 
 .code-highlight-caption {
   position: relative;
+  font-size: .9em;
   text-align: center;
   line-height: 2em;
   text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
@@ -370,6 +373,7 @@ pre *, pre code * {
   font-weight: normal;
   margin-bottom: 0;
   background-color: #ccc;
+  background-image: -webkit-linear-gradient(#ffffff, #f0f0f0 6%, #e5e5e5 90%, #e5e5e5);
   background-image: linear-gradient(#ffffff, #f0f0f0 6%, #e5e5e5 90%, #e5e5e5);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
