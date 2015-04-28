@@ -62,7 +62,11 @@ pre:not(.code-highlight-pre),
   padding: 0;
   border: 0;
 
-  pre { margin: { top: 0; bottom: 0; } }
+  pre { 
+    margin: { top: 0; bottom: 0; }
+    padding: 0;
+    border: none;
+  }
   
 }
 
@@ -97,6 +101,7 @@ pre:not(.code-highlight-pre) {
   padding: 1em .8rem;
   border-radius: .4em;
   margin: 1.8em 0;
+  border: none;
 }
 
 .code-highlight-pre {
