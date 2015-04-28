@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.6 - 2015-04-27
+- Fix: Added some style resets to counter common pre styling
+
 ## 1.0.5 - 2015-04-27
 - Fix: minor font-size fixes.
 
