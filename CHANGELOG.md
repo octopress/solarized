@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.5 - 2015-04-27
+- Fix: minor font-size fixes.
+
 ## 1.0.4 - 2015-04-27
 - Fix: font-size should be inherited from page styles.
 
