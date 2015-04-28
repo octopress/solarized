@@ -361,7 +361,9 @@ pre *, pre code * {
 
 .code-highlight-figure pre {
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0;
+  border: none; }
 
 .code-highlight-caption {
   position: relative;
@@ -394,7 +396,8 @@ pre *, pre code * {
 .highlight pre, pre:not(.code-highlight-pre) {
   padding: 1em .8rem;
   border-radius: .4em;
-  margin: 1.8em 0; }
+  margin: 1.8em 0;
+  border: none; }
 
 .code-highlight-pre {
   width: 100%;
