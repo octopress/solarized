@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1 - 2015-05-01
+- Fix: Updated stylesheets to use the new local plugin var for accessing config.
+
 ## 1.1.0 - 2015-05-01
 - Change: Changed slug to "solarized"
 

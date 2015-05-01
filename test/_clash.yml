@@ -4,5 +4,5 @@
 -
   build: true
   config:
-    octopress-solarized: _solarized.yml
+    solarized: _solarized.yml
   compare: _expected/light _site
