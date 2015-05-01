@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.0 - 2015-05-01
+- Change: Changed slug to "solarized"
+
 ## 1.0.6 - 2015-04-27
 - Fix: Added some style resets to counter common pre styling
 
