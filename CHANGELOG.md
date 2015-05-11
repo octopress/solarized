@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2 - 2015-05-11
+- Fix: Updated Octopress and Octopress Ink dependency versions
+
 ## 1.1.1 - 2015-05-01
 - Fix: Updated stylesheets to use the new local plugin var for accessing config.
 
